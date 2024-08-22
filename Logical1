@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Logical1 {
+    public static void main(String[] args){
+        String user = "geek", pwd = "GEEK";
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter User Name:");
+        String iu = sc.next();
+        System.out.println("Enter Password:");
+        String ip = sc.next();
+
+        if(user.equals(iu) && pwd.equals(ip))
+            System.out.println("Welcome");
+        else
+            System.out.println("Try Again");
+    }
+}
